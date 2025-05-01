@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Technicla Documentation Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <header id="navbar-header">CSS Style Properties</header>
+    <ul class="navbar-ul">
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#display">Display</a></li>
+      <li><a class="nav-link" href="#margin_and_padding">Margin and padding</a></li>
+      <li><a class="nav-link" href="#color_and_background_color">Color and background color</a></li>
+      <li><a class="nav-link" href="#font">Font</a></li>
+      <li><a class="nav-link" href="#width_and_height">Width and height</a></li>
+      <li><a class="nav-link" href="#border">Border</a></li>
+      <li><a class="nav-link" href="#position">Position</a></li>
+      <li><a class="nav-link" href="#reference">Reference</a></li>
+    </ul>
+
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="introduction">
+      <header class="main-section-header">Introduction</header>
+
+      <p>CSS (Cascading Style Sheets) is a powerful language that allows web developers to control the look and feel of their web pages. With CSS, you can define the layout, colors, typography, and other visual aspects of a website. While there are numerous CSS properties available, mastering the most popular ones can greatly enhance your ability to create stunning and responsive web designs. In this blog post, we’ll explore the most popular CSS properties that every web developer should know.</p>
+
+    </section>
+
+    <section class="main-section" id="display">
+      <header class="main-section-header">Display</header>
+
+      <p>The display property is crucial for controlling how elements are rendered on a webpage. It allows you to specify whether an element should behave as an inline, block, or inline-block element. Understanding how display works is essential for creating well-structured layouts.</p>
+
+      <p>Display takes on many different values, but only 4 are most commonly used:</p>
+      <code id="code-sample"> div {
+        display: block;
+        display: inline-block;
+        display: inline;
+        display: none;
+        }
+      </code>
+      <ul>
+        <li class="text-li"><code class="code-text">block</code> - many HTML elements are set to this mode of display by browsers’ stylesheets. They include <code class="code-text">&lt;div&gt;</code>, <code class="code-text">&lt;ul&gt;</code> and text blocks like <code class="code-text">&lt;p&gt;</code>. Block level elements by default take up as much space as they can, and they cannot be placed on the same horizontal line with any other display modes, include other block elements. (Exception: unless they are floated)</li>
+        <li class="text-li"><code class="code-text">inline</code> - the inline mode wraps many HTML elements tighty around them and is the defaults for all elements that are not specified with any other display values. Elements can be placed side by side on the same line as inline elements. Think about the <code class="code-text">&lt;strong&gt;</code> tag that <b>bolds elements</b>, the em tag that creates <i>italics</i> and <code class="code-text">&lt;a&gt;</code> tags that allow you to link to other web pages. These are all examples of inline elements. You will not be able to change an inline element’s width and height.</li>
+        <li class="text-li"><code class="code-text">inline-block</code> - this is one display value that combines the properties of both block elements and inline elements. You get the ability to set a height and width, and the element can appear on the same horizontal line as other elements.</li>
+        <li class="text-li"><code class="code-text">none</code> - display none hides the element from the website and it will not be shown visually. This is very useful for CSS Dropdown menus where additional options appear when you hover on navigation menus. The rationale is that elements are set to a display value of none initially, and the display value is changed to block on hover.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="margin_and_padding">
+      <header class="main-section-header">Margin and padding</header>
+
+      <p>The margin and padding properties control the spacing around elements. With margin, you can define the space outside an element, while padding allows you to set the space between an element's content and its border. Properly utilizing these properties helps achieve better alignment and spacing in your designs.</p>
+
+      <p>It is useful to refer to the box model below:</p>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png" alt="The box model" />
+      <p>Explanation of the different parts:</p>
+      <ul>
+        <li class="text-li"><b>Content</b> - the content of the box, where text and images appear</li>
+        <li class="text-li"><b>Padding</b> - clears an area around the content. The padding is transparent</li>
+        <li class="text-li"><b>Border</b> - a border that goes around the padding and content</li>
+        <li class="text-li"><b>Margin</b> - clears an area outside the border. The margin is transparent.</li>
+      </ul>
+      <p>Ordinarily, margins are written in this manner:</p>
+      <code class="code-sample">div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+      </code>
+
+      <p>They can be written in shorthand to simplify the lines of codes and make it easier to read. In fact, shorthands are the standard practice and you should know them. Here’s a quick explanation:</p>
+      <code class="code-sample">div {
+        /* This shorthand refers to TOP, Right, Bottom, Left. Its easier to picture a clock at 12, 3, 6 and 9 respectively */
+        margin: 20px 10px 20px 10px;
+
+        /* This refers to Top, Left and Right, Bottom */
+        margin: 20px 10px 20px;
+
+        /* This refers to Top and Bottom, Left and Right */
+        margin: 20px 10px;
+
+        /* This refers to 20px worth of margin on all 4 sides */
+        margin: 20px;
+        }
+      </code>
+      <p><b>Extra tip:</b> margins with auto on the left and right are used to center an element with a display value of block. Its written simply as:</p>
+      <code class="code-sample">div {
+        margin: 0 auto;
+        }
+      </code>
+
+    </section>
+
+    <section class="main-section" id="color_and_background_color">
+      <header class="main-section-header">Color and background color</header>
+
+      <p>Color here refers to text color. It takes on a #hex value or a rgb value as with border colors.</p>
+      <code></code>
+      <p>A <code class="code-text">color</code> value can be specified using one of the methods listed below:</p>
+      <ul>
+        <li class="text-li">by keywords: <code class="code-text">named-color</code> (such as <code class="code-text">blue</code> or <code class="code-text">pink</code>), <code class="code-text">system-color</code>, and <code class="code-text">currentcolor</code></li>
+        <li class="text-li">by hexadecimal notations: <code class="code-text">&lt;hex-color&gt;</code> (such as <code class="code-text">#ff0000</code>)</li>
+        <li class="text-li">by parameters in a color space using functional notations:
+          <ul id="sub-li">
+            <li class="text-sub-li">sRGB color space: <code class="code-text">hsl()</code>, <code class="code-text">hwb()</code>, <code class="code-text">rgb()</code></li>
+            <li class="text-sub-li">CIELAB color space: <code class="code-text">lab()</code>, <code class="code-text">lch()</code></li>
+            <li class="text-sub-li">Oklab color space: <code class="code-text">oklab()</code>, <code class="code-text">oklch()</code></li>
+            <li class="text-sub-li">Other color spaces: <code class="code-text">color()</code></li>
+          </ul>
+        </li>
+        <li class="text-li">by mixing two colors: <code class="code-text">color-mix()</code></li>
+        <li class="text-li">by specifying two colors, the first used for light color-schemes and the second used for dark color-schemes: <code class="code-text">light-dark()</code></li>
+      </ul>
+      <p>Background refers to the background of the HTML element. Like many CSS properties, <code class="code-text">background</code> has a shorthand to it as well.</p>
+      <code class="code-sample">body {
+        /* All background definitions are option, but at least one must be stated. The above are default values given to background if you have left anything undefined */
+        background: transparent image-url('image.png') left top no-repeat;
+        }
+      </code>
+      <p>Here are the explanations for the background properties in order from left to right:</p>
+      <ul>
+        <li class="text-li"><code class="code-text">background-color</code> - color of the background. Takes #hex value or an rgb value</li>
+        <li class="text-li"><code class="code-text">background-image</code> - url(URI). Takes on the path to your image</li>
+        <li class="text-li"><code class="code-text">background-repeat</code> - whether you would like the background to repeat if the width exceeds the background size. Other values are repeat, repeat-x and repeat-y.</li>
+        <li class="text-li"><code class="code-text">background-position</code> - position of the background relative to the HTML element. Two values are needed here, X and Y, where X is the amount of offset from the left and Y is the amount of offset from the top. Takes on either unit values (as with width and height) or left, center, right and top, center, bottom for left and right respectively.</li>
+      </ul>
+
+    </section>
+
+    <section class="main-section" id="font">
+      <header class="main-section-header">Font</header>
+
+      <p>Fonts in general refer to the appearance of text in your website. There are a few things to look out for. Like other properties, font has a shorthand. Do note that it is common to see the font shorthand declaration only once in the whole CSS file. It is common to use the different properties at other times:</p>
+      <code class="code-sample">body {
+        /* font shorthand */
+        font:
+        italic small-caps bold 20px/1.5 'Proxima Nova',
+        helvetica,
+        arial,
+        sans-serif;
+        }</code>
+      <p>Here are the explanations for the font properties in order from left to right:</p>
+      <ul>
+        <li class="text-li"><code class="code-text">font-style</code> - Style of the font. valid values are either italic or normal. Defaults to normal. Optional property in font shorthand</li>
+        <li class="text-li"><code class="code-text">font-variant</code> - variant of the font. valid values are normal and small caps. Defaults to normal. Optional property in font shorthand and is not often used</li>
+        <li class="text-li"><code class="code-text">font-weight</code> - weight of font. determines if text is bold. valid values are normal, bold, bolder, or 100 - 900. Optional property in font shorthand</li>
+        <li class="text-li"><code class="code-text">font-size</code> - size of font. Takes a value thats the same as width and height</li>
+        <li class="text-li"><code class="code-text">line-height</code> - determines the amount of space above and below the text. Very important to ensure good readability. Takes on the same values as font, and also a unitless value. If a unitless value is used, it means the line height is a multiple of the value provided.</li>
+        <li class="text-li"><code class="code-text">font-family</code> - area to declare typefaces and fontstack that you would like to use.</li>
+      </ul>
+
+    </section>
+
+    <section class="main-section" id="width_and_height">
+      <header class="main-section-header">Width and height</header>
+
+      <p>Width and height properties are used closely with <code class="code-text">display:block</code> and <code class="code-text">display:inline</code> to set the width and height of HTML elements while creating a website. Common units for Width and Height are:</p>
+
+      <ul>
+        <li class="text-li"><b>px</b> - Pixels.</li>
+        <li class="text-li"><b>em</b> - A unit of measurement, where 1 em = current font size.</li>
+        <li class="text-li"><b>rem</b> - Root em. Same measurement as em, but makes life much easier without the inheritance problem.</li>
+        <li class="text-li"><b>%</b> - Percentages.</li>
+        <li class="text-li"><b>auto</b> - highly useful unit, will explain below.</li>
+      </ul>
+      <p>Other units of measurement can be found at the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">W3 Schools website</a>. If you’re wondering about the difference between px, em and rem, check out this great article on <a href="https://snook.ca/archives/html_and_css/font-size-with-rem" target="_blank">font sizing with rem by Jonathan Snook</a></p>
+      <p>Extremely useful properties like max-width, min-width, max-height and min-height come into play as well when you’re making responsive websites. Here’s one example of how auto and max-width can be used to make sure images fit tightly and snugly into available space:</p>
+      <code class="code-sample">img {
+        max-width: 100%;
+        height: auto;
+        }
+      </code>
+    </section>
+
+    <section class="main-section" id="border">
+      <header class="main-section-header">Border</header>
+
+      <p>The border property allows you to create borders around elements. You can control the border's width, style, and color, giving your designs a polished and defined look.</p>
+      <p>Borders have 3 different properties that you have take care of:</p>
+      <code></code>
+      <p></p>
+      <ul>
+        <li class="text-li"><code class="code-text">border-widt</code> – width of the border. Same units as width and height</li>
+        <li class="text-li"><code class="code-text">border-style</code> – style of the border. Usual values are solid and dashed. For a complete list, take a look at <a href="http://www.w3schools.com/cssref/pr_border-style.asp" target="_blank">W3 Schools Website</a></li>
+        <li class="text-li"><code class="code-text">border-color</code> – color of the border. Hex, and rgb values can be used.</li>
+      </ul>
+      <p>Instead of writing the longer version, you could declare the border shorthand in this way:</p>
+      <code class="code-sample">div {
+        /* border width, style and color */
+        border: 1px solid black;
+        }
+      </code>
+      <p>Likewise to margins and paddings, borders refer to all 4 sides. If you are only interested in applying borders to 1 or 2 sides, I generally prefer to stick by border-top, border-bottom, border-left or border-right.</p>
+    </section>
+
+    <section class="main-section" id="position">
+      <header class="main-section-header">Position</header>
+
+      <p>The <code class="code-text">position</code> property specifies the type of positioning method used for an element. There are five different position values:</p>
+
+      <ul id="position-ul">
+        <li class="text-li"><code class="code-text">static</code> – element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value. </li>
+        <li class="text-li"><code class="code-text">relative</code> – element is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+        <li class="text-li"><code class="code-text">fixed</code> – element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. A fixed element does not leave a gap in the page where it would normally have been located. </li>
+        <li class="text-li"><code class="code-text">absolute</code> – element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like <code code id="code-text">fixed</code>). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. </li>
+        <li class="text-li"><code class="code-text">sticky</code> – element is positioned based on the user's scroll position. A sticky element toggles between <code class="code-text">relative</code> and <code class="code-text">fixed</code>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like <code class="code-text">position:fixed</code>) </li>
+      </ul>
+      <p>Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the <code class="code-text">position</code> property is set first. They also work differently depending on the position value.</p>
+      <p>The <code class="code-text">z-index</code> property determines the stacking order of positioned elements, allowing you to control which elements appear in front of others. <b>Note:</b> <code class="code-text">z-index</code> only works on positioned elements (<code class="code-text">position: absolute</code>, <code class="code-text">position: relative</code>, <code class="code-text">position: fixed</code>, or <code class="code-text">position: sticky</code>) and flex items (elements that are direct children of <code class="code-text">display:flex</code> elements).</p>
+      <p>Property Values:</p>
+      <ul>
+        <li class="text-li"><code class="code-text">auto</code> – sets the stack order equal to its parents. This is default.</li>
+        <li class="text-li"><code class="code-text">number</code> – sets the stack order of the element. Negative numbers are allowed.</li>
+        <li class="text-li"><code class="code-text">initial</code> – sets this property to its default value.</li>
+        <li class="text-li"><code class="code-text">inherit</code> – inherits this property from its parent element.</li>
+      </ul>
+
+    </section>
+
+    <section class="main-section" id="reference">
+      <header class="main-section-header">Reference</header>
+
+      <p>All the documentation in this page is taken from <a target="_blank" href="https://medium.com/@Rowsan_A/the-10-most-popular-css-properties-every-web-developer-should-master-8d6ed1915993">Medium</a>, <a target="_blank" href="https://developer.mozilla.org/">MDN Web Docs</a>, <a target="_blank" href="https://www.w3schools.com/">W3Schools</a>.</p>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>

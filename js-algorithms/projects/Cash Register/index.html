@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div id="div-page">
+
+      <div class="container" id="div-price">
+        <p id="p-price">Total price</p>
+      </div>
+
+      <div class="container" id="div-input">
+        <p class="p-title">Enter cash from customer</p>
+          <div id="input-container">
+            <input type="number" id="cash" step="0.01" placeholder="0.00"/>
+            <button id="purchase-btn">Purchase</button>
+          </div>    
+        <div id="result">
+        </div>
+      </div>
+   
+      <div class="container" id="div-register-body">
+          <div class="register-body" id="keyboard">
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+              <div class="key"></div>
+          </div>
+          <div class="register-body" id="div-cid">
+              <p class="p-title" id="cash-in-register"><b>Cash in register:</b></p>
+              <span class="denomination">Pennies: <span id="pennies"></span></span>
+              <span class="denomination">Nickels: <span id="nickels"></span></span>
+              <span class="denomination">Dimes: <span id="dimes"></span></span>
+              <span class="denomination">Quarters: <span id="quarters"></span></span>
+              <span class="denomination">Dollars: <span id="dollars"></span></span>
+              <span class="denomination">Five Dollars: <span id="five-dollars"></span></span>
+              <span class="denomination">Ten Dollars: <span id="ten-dollars"></span></span>
+              <span class="denomination">Twenty Dollars: <span id="twenty-dollars"></span></span>
+              <span class="denomination">Hundred Dollars: <span id="hundred-dollars"></span></span>
+          </div>  
+      </div>
+
+      <div class="container" id="div-change">
+        <div id="handle"></div>
+        <p id="change-due"></p>
+      </div>
+
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

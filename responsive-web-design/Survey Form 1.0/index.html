@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/poppins">
+    </head>
+  <body>
+    <h1 id="title">Fitness Club Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our services</p>
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    <fieldset class="window">
+
+
+
+      <fieldset class="fieldset-section">
+        <label for="name" id="name-label">Name<input id="name" name="name" type="text" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label">Email<input id="email" name="email" type="email" placeholder="Enter your Email" required /></label>
+        <label for="number" id="number-label">Age <span >(optional)</span><input id="number" name="age" type="number" min="10" max="200" placeholder="Age" required /><label>
+        <label for="dropdown">How often do you use the Fitness Club?</label> 
+        <select id="dropdown" name="current_role">
+            <option value="" disabled="disabled" selected="selected">Select visit frequency</option>
+            <option value="1">Less than weekly</option>
+            <option value="2">Once a week</option>
+            <option value="3">Twice a week</option>
+            <option value="4">Three times a week</option>
+            <option value="5">More than three times a week</option>
+        </select>
+      </fieldset>
+
+
+
+
+      <fieldset class="fieldset-section">
+        <label for="motivation">What was your motivation to join Fitness Club <span>(Check all that apply)</span></label>
+        <label for="a1"><input type="checkbox" name="a1" value="enhance_sport_performance"/>Enhance sport performance</label>
+        <label for="a2"><input type="checkbox" name="a2" value="lose_weight"/>Lose weight</label>
+        <label for="a3"><input type="checkbox" name="a3" value="to_keep_fit_and_healthy"/>To keep fit and healthy</label>
+        <label for="a4"><input type="checkbox" name="a4" value="have_fun_meet_people_and_socialize"/>Have fun, meet people and socialize</label>
+        <label for="a5"><input type="checkbox" name="a5" value="other"/>Other</label>
+      </fieldset>
+
+
+
+
+      <fieldset class="fieldset-section">
+        <label for="section">What is your favorite section of Fitness Club?</label>
+        <select id="section" name="favorite_feature" required>
+            <option value="" disabled="disabled" selected="selected">Select an option</option>
+            <option value="101">Cardiovascular area</option>
+            <option value="102">Functional fitness area</option>
+            <option value="103">Free weights area</option>
+            <option value="104">Stretching and mobility area</option>
+            <option value="105">Group classes area</option>
+            <option value="106">Personal training corners</option>
+        </select>
+      </fieldset>
+
+
+
+      
+      <fieldset class="fieldset-section">
+        <label>What would you like to see improved? <span>(Check all that apply)</span></label>
+        <label for="b1"><input type="checkbox" name="b1" value="layout_and_design"/>Layout and design</label>
+        <label for="b2"><input type="checkbox" name="b2" value="new_high_quality_equipment"/>New high-quality equipment</label>
+        <label for="b3"><input type="checkbox" name="b3" value="diverse_fitness_classes"/>Diverse fitness classes</label>
+        <label for="b4"><input type="checkbox" name="b4" value="improve_cleanliness"/>Improve cleanliness</label>
+        <label for="b5"><input type="checkbox" name="b5" value="incorporate_technology"/>Incorporate technology</label>
+        <label for="b6"><input type="checkbox" name="b6" value="customer_service"/>Customer service</label>
+        <label for="b7"><input type="checkbox" name="b7" value="personal_training_services"/>Personal training services</label>
+        <label for="b8"><input type="checkbox" name="b8" value="healthy_food_options"/>Healthy food options</label>
+        <label for="b9"><input type="checkbox" name="b9" value="community_atmosphere"/>Community atmosphere</label>
+        <label for="b10"><input type="checkbox" name="b10" value="outdoor_workouts"/>Outdoor workouts</label>
+        <label for="b11"><input type="checkbox" name="b11" value="member_rewards_program"/>Member rewards program </label>
+      </fieldset>
+      
+
+
+      <fieldset class="fieldset-section">
+        <label>Would you recommend Fitness Club to a friend?</label>
+        <label for="definitely"><input id="definitely" type="radio" name="recommendation" class="inline" value="definitely" checked /> Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="recommendation" class="inline" value="maybe" /> Maybe</label>
+        <label for="notsure"><input id="notsure" type="radio" name="recommendation" class="inline" value="not_sure" /> Not sure</label>
+      </fieldset>
+
+
+
+
+      <fieldset class="fieldset-section">
+        <label for="suggestions">Any comments or suggestions? </label>
+        <textarea id="suggestions" name="suggestions" rows="5" cols="30" placeholder="Enter your comment here..."></textarea>
+      </fieldset>
+
+
+
+      <fieldset class="fieldset-section">
+        <input type="submit" id="submit" value="Submit" />
+      </fieldset>
+
+
+      
+  </fieldset>
+  </form>
+  </body>
+</html>

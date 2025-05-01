@@ -1,0 +1,140 @@
+nav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-right: 3px solid gray;
+  }
+  
+  #main-doc {
+    margin-left: 340px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .navbar-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: rgb(77, 78, 83);
+    font-size: 13pt;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 0;
+    margin-top: 1px;
+    outline: 1px solid gray;
+  }
+  
+  .nav-link:hover {
+    background-color: #eee;
+  }
+  
+  header {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 22pt;
+  }
+  
+  #navbar-header {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  p {
+    font-family: Roboto, sans-serif;
+    color: rgb(77, 78, 83);
+    font-size: 12pt;
+    padding-left: 20px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  
+  .text-li {
+    font-family: Roboto, sans-serif;
+    color: rgb(77, 78, 83);
+    font-size: 12pt;
+    padding-left: 10px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-left: 60px;
+  }
+  
+  ul {
+    padding-left: 40px;
+  }
+  
+  .code-sample {
+    background-color: #eee;
+    border: 1px solid #999;
+    white-space: pre-line;
+    display: block;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10pt;
+  }
+  
+  .code-text {
+    background-color: #eee;
+    border: 1px solid #999;
+    white-space: pre-line;
+    line-height: 1.5;
+    border-radius: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: black;
+    font-size: 10pt;
+  }
+  
+  #margin_and_padding li {
+    line-height: 1.5;
+  }
+  
+  #color_and_background_color ul {
+    line-height: 1.5;
+  }
+  
+  #display li {
+    margin-bottom: 16px;
+  }
+  
+  #position #position-ul li {
+    margin-bottom: 16px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  a {
+    color: blue;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  

@@ -1,0 +1,115 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 2%;
+  }
+  
+  main {
+    background-color: linen;
+    margin: 0;
+    padding: 2%;
+  }
+  
+  h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  #title-subtext {
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #tribute-info {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  #image {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  #img-div {
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+  }
+  
+  figcaption {
+    font-size: 13pt;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+  }
+  
+  .tribute-text {
+    font-size: 13pt;
+    padding-left: 0;
+    line-height: 1.6;
+    font-weight: 250;
+  }
+  
+  li {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  #quote {
+    font-size: 13pt;
+    font-style: italic;
+  }
+  
+  cite {
+    text-align: right;
+    font-size: 13pt;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  #tribute-link-text,
+  #tribute-title {
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  

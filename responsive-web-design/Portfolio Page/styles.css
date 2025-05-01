@@ -1,0 +1,231 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background-color: #aa0505;
+    position: fixed;
+    top: 0;
+  }
+  
+  #header-img {
+    height: 60%;
+    padding-left: 50px;
+  }
+  
+  #navbar-ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    list-style-type: none;
+    margin: 0 60px 0 0;
+  }
+  
+  .nav-a {
+    color: #fbca03;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+  
+  .nav-a:hover {
+    color: #b97d10;
+  }
+  
+  #welcome-section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://image.winudf.com/v2/image/Y29tLkNvZGVMb25lbHkuSXJvbk1hblNob290ZXJfc2NyZWVuXzFfMTUyMDMzMDY1MV8wNDg/screen-1.webp?fakeurl=1&type=.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    color: #fbca03;
+    font-size: 44pt;
+    margin: 0;
+  }
+  
+  #title-subtext {
+    color: #aa0505;
+    font-size: 22pt;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  #gallery-section {
+    background-color: #fbca03;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-size: 28pt;
+    color: #6a0c0b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  #projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  
+  .img-div-a {
+    height: 450px;
+    width: 400px;
+    text-decoration: none;
+  }
+  
+  .image {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+  }
+  
+  figcaption {
+    background-color: #6a0c0b;
+    color: white;
+    height: 50px;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  figcaption:hover {
+    background-color: #aa0505;
+    cursor: pointer;
+  }
+  
+  #show-more {
+    background-color: #6a0c0b;
+    color: white;
+    height: 50px;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+  
+  #show-more:hover {
+    background-color: #aa0505;
+    cursor: pointer;
+  }
+  
+  #closing-section {
+    height: calc(100vh - 120px);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/f0/e1/35/f0e13514b1ec0ca5eaafd3039fc7cc74.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #closing-subtext {
+    color: #fbca03;
+    font-size: 20pt;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  
+  #ul-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    gap: 30px;
+  }
+  
+  #tribute-info {
+    color: #fbca03;
+    font-family: "Poppins", sans-serif;
+    font-size: 18pt;
+    padding-right: 40px;
+    padding-left: 40px;
+    list-style-type: none;
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  .social-link {
+    color: #fbca03;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .ul-links-li {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #fbca03;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .ul-links-li:hover {
+    background-color: #aa0505;
+  }
+  
+  footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+  }
+  
+  .footer-text {
+    color: #fbca03;
+    font-weight: 300;
+    font-size: 11pt;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  

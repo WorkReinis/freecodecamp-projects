@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/poppins">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="text-center mt-5 mt-md-3" >Fitness Club Survey Form</h1>
+    <h5 class="text-center mb-5">Thank you for taking the time to help us improve our services</h5>
+
+    <form class="container bg-white p-3 p-md-5 mb-md-5 rounded" id="survey-form" method="post"
+        action="https://register-demo.freecodecamp.org" style="max-width: 600px">
+
+
+
+
+
+        <div class="row mb-0 mb-md-3">
+            <div class="col-12 col-md-6 mb-3 mb-md-1">
+                <label for="first-name" class="form-label mb-2">First Name</label>
+                <input class="form-control p-2 " id="first-name" name="first-name" type="text"
+                    placeholder="Enter your first name" required />
+            </div>
+            <div class="col-12 col-md-6 mb-3 mb-md-1">
+                <label for="last-name" id="name-label" class="form-label mb-2">Last Name</label>
+                <input class="form-control p-2 " id="last-name" name="last-name" type="text"
+                    placeholder="Enter your last name" required />
+            </div>
+        </div>
+
+        <div class="row mb-0 mb-md-3">
+            <div class="col-12 col-md-8 mb-3 mb-md-1">
+                <label for="email" id="email-label" class="form-label mb-2">Email</label>
+                <input class="form-control p-2 " id="email" name="email" type="email" placeholder="Enter your Email"
+                    required />
+            </div>
+            <div class="col-12 col-md-4 mb-3 mb-md-1">
+                <label for="number" id="number-label" class="form-label mb-2">Age <span
+                        class="form-text text-muted">(optional)</span></label>
+                <input class="form-control p-2 " id="number" name="age" type="number" min="0" max="200"
+                    placeholder="Age" />
+            </div>
+        </div>
+
+
+        <div class="mb-2 mb-md-3">
+            <label for="dropdown" class="form-label">How often do you use the Fitness Club?</label>
+            <select class="form-select p-2 mb-3 mb-md-1" id="dropdown" name="current_role">
+                <option value="" disabled="disabled" selected="selected">Select visit frequency</option>
+                <option value="1">Less than weekly</option>
+                <option value="2">Once a week</option>
+                <option value="3">Twice a week</option>
+                <option value="4">Three times a week</option>
+                <option value="5">More than three times a week</option>
+            </select>
+        </div>
+
+
+
+        <div class="mb-3">
+
+            <p class="mb-1">What was your motivation to join Fitness Club? <span class="form-text text-muted">(Check all
+                    that apply)</span>
+            </p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="a1" name="a1" value="enhance_sport_performance" />
+                <label for="a1">Enhance sport performance</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="a2" name="a2" value="lose_weight" />
+                <label for="a2">Lose weight</label>
+            </div>
+
+            <div class="form-check">
+                <label for="a3">To keep fit and healthy</label>
+                <input class="form-check-input" type="checkbox" id="a3" name="a3" value="to_keep_fit_and_healthy" />
+            </div>
+
+            <div class="form-check">
+                <label for="a4">Have fun, meet people and socialize</label>
+                <input class="form-check-input" type="checkbox" id="a4" name="a4"
+                    value="have_fun_meet_people_and_socialize" />
+            </div>
+
+            <div class="form-check ">
+                <label for="a5">Other</label>
+                <input class="form-check-input" type="checkbox" id="a5" name="a5" value="other" />
+            </div>
+
+        </div>
+
+
+        <div class="mb-2 mb-md-3">
+
+            <p class="mb-1">What is your favorite section of Fitness Club?</p>
+
+            <select class="form-select p-2 mb-3 mb-md-1" id="section" name="favorite_feature" required>
+                <option value="" disabled="disabled" selected="selected">Select an option</option>
+                <option value="101">Cardiovascular area</option>
+                <option value="102">Functional fitness area</option>
+                <option value="103">Free weights area</option>
+                <option value="104">Stretching and mobility area</option>
+                <option value="105">Group classes area</option>
+                <option value="106">Personal training corners</option>
+                <option value="107">Other</option>
+            </select>
+
+        </div>
+
+
+
+
+        <div class="mb-3">
+
+            <p class="mb-1">What would you like to see improved? <span class="form-text text-muted">(Check all that
+                    apply)</span></p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b1" name="b1" value="layout_and_design" />
+                <label class="form-check-label" for="b1">Layout and design</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b2" name="b2" value="new_high_quality_equipment" />
+                <label class="form-check-label" for="b2">New high-quality equipment</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b3" name="b3" value="diverse_fitness_classes" />
+                <label class="form-check-label" for="b3">Diverse fitness classes</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b4" name="b4" value="improve_cleanliness" />
+                <label class="form-check-label" for="b4">Improve cleanliness</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b5" name="b5" value="incorporate_technology" />
+                <label class="form-check-label" for="b5">Incorporate technology</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b6" name="b6" value="customer_service" />
+                <label class="form-check-label" for="b6">Customer service</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b7" name="b7" value="personal_training_services" />
+                <label class="form-check-label" for="b7">Personal training services</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b8" name="b8" value="healthy_food_options" />
+                <label class="form-check-label" for="b8">Healthy food options</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b9" name="b9" value="community_atmosphere" />
+                <label class="form-check-label" for="b9">Community atmosphere</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b10" name="b10" value="outdoor_workouts" />
+                <label class="form-check-label" for="b10">Outdoor workouts</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="b11" name="b11" value="member_rewards_program" />
+                <label class="form-check-label" for="b11">Member rewards program</label>
+            </div>
+
+
+
+        </div>
+
+
+
+        <fieldset class="row mb-0 mb-md-3">
+
+            <p class="mb-1">Would you recommend Fitness Club to a friend?</p>
+
+            <label for="definitely" class="form-check-label">
+                <input class="form-check-input" id="definitely" type="radio" name="recommendation" class="inline"
+                    value="definitely" checked />
+                Definitely
+            </label>
+
+            <label for="maybe" class="form-check-label">
+                <input class="form-check-input" id="maybe" type="radio" name="recommendation" class="inline"
+                    value="maybe" />
+                Maybe
+            </label>
+
+            <label for="notsure" class="form-check-label">
+                <input class="form-check-input" id="notsure" type="radio" name="recommendation" class="inline"
+                    value="not_sure" />
+                Not sure
+            </label>
+
+        </fieldset>
+
+
+
+
+        <fieldset class="mb-0 mb-md-3">
+            <label for="suggestions" class="form-label">Any comments or suggestions? </label>
+            <textarea class="form-control" id="suggestions" name="suggestions" rows="3"
+                placeholder="Enter your comment here..."></textarea>
+        </fieldset>
+
+
+
+        <fieldset class="mb-0 mb-md-3">
+            <input class="btn btn-primary" type="submit" id="submit" value="Submit" />
+        </fieldset>
+
+
+
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
