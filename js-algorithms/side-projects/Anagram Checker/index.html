@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anagram Checker</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <div class="window">
+            <div class="container">
+                <h1>Anagram Checker</h1>
+                <p>
+                    Enter two strings to check if they are anagrams. The app
+                    will compare the characters of both strings, ignoring spaces
+                    and punctuation, to determine if they are identical when
+                    rearranged. For example: 
+                </p>
+
+                <p><b>Tom Marvolo Riddle</b></p>
+
+                <p><b>I am Lord
+                    Voldemort</b></p>
+            </div>
+            <div class="input">
+                <input
+                    type="text"
+                    id="inputTextOne"
+                    placeholder="Enter first string"
+                />
+                <input
+                    type="text"
+                    id="inputTextTwo"
+                    placeholder="Enter second string"
+                />
+                <button id="checkButton">Check Anagram</button>
+            </div>
+
+            <div class="container result" id="resultText"></div>
+        </div>
+
+        <!-- Link to the external JavaScript file -->
+        <script src="script.js"></script>
+    </body>
+</html>
