@@ -2,7 +2,7 @@
 
 This repository contains my personal submissions for the [freeCodeCamp](https://www.freecodecamp.org/) certification projects.
 
-## 🎓Certifications Covered
+## 🎓 Certifications Covered
 
 - Responsive Web Design
 - JavaScript Algorithms and Data Structures
