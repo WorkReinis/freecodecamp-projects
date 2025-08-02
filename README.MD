@@ -1,8 +1,8 @@
-## 📚 freeCodeCamp Certification Projects
+## freeCodeCamp Certification Projects
 
 This repository contains my personal submissions for the [freeCodeCamp](https://www.freecodecamp.org/) certification projects.
 
-## 🎓 Certifications Covered
+## Certifications Covered
 
 - 🖥️ Responsive Web Design
 - ⚙️ JavaScript Algorithms and Data Structures
@@ -10,9 +10,6 @@ This repository contains my personal submissions for the [freeCodeCamp](https://
 
 Each project is in its own folder, with source code and (when applicable) a live demo link.
 
-## ▶️ Running the Projects
+## Running the Projects
 
-- Projects built with just HTML, CSS, and JavaScript can be opened directly in a browser.
-- Some projects (especially JavaScript algorithms) may require [Node.js](https://nodejs.org/).
-
-For setup and usage details, check the `README.md` file inside each project's folder.
+Most can be opened directly in a browser, however Front End Libraries projects require [Node.js](https://nodejs.org/).
