@@ -11,7 +11,7 @@ Practical coding exercises focused on logic, data handling, and algorithmic prob
 ![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
 
-## 🚀 Projects Included
+<!-- ## 🚀 Projects Included
 
 -   **Cash Register**  
     Calculates change from a transaction using precise currency logic.  
@@ -39,7 +39,20 @@ Practical coding exercises focused on logic, data handling, and algorithmic prob
      [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)
 -   **Word counter**  
      Counts words and characters in a given text input.  
-     [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV)
+     [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV) -->
+
+     ## 🚀 Projects Included
+
+- **Cash Register** — Calculates change precisely. [Live Demo](https://codepen.io/Work-Reinis/pen/VYvpzzN)  
+- **Palindrome Checker** — Checks palindromes. [Live Demo](https://codepen.io/Work-Reinis/pen/OPypjxy)  
+- **Pokemon Search App** — Fetches Pokémon data. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEGy)  
+- **Roman Numeral Converter** — Converts to/from Roman numerals. [Live Demo](https://codepen.io/Work-Reinis/pen/dPYvzVr)  
+- **US Telephone Validator** — Validates US phone numbers. [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)  
+- **Anagram Checker** — Checks if two strings match. [Live Demo](https://codepen.io/Work-Reinis/pen/LEpWjQq)  
+- **Number to Text Converter** — Converts numbers to words. [Live Demo](https://codepen.io/Work-Reinis/pen/PwPpKRP)  
+- **ROT13 Cipher** — Encodes/decodes ROT13 cipher. [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)  
+- **Word Counter** — Counts words & characters. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV)  
+
 
 ## 🧠 What I Learned
 
