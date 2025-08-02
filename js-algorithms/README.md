@@ -8,26 +8,26 @@ Practical coding exercises focused on logic, data handling, and algorithmic prob
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30)
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black&logoWidth=30)
-![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)  
+![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
 
 ## 🚀 Projects Included
 
 -   **Cash Register**  
-    Calculates change from a transaction using precise currency logic.
-    [Live Demo]()
+    Calculates change from a transaction using precise currency logic.  
+    [Live Demo](https://codepen.io/Work-Reinis/pen/VYvpzzN)
 -   **Palindrome Checker**  
     Checks if a given string reads the same backward and forward.  
-    [Live Demo]()
+    [Live Demo](https://codepen.io/Work-Reinis/pen/OPypjxy)
 -   **Pokemon Search App**  
     Fetches and displays Pokémon data based on user input.  
-    [Live Demo]()
+    [Live Demo](https://codepen.io/Work-Reinis/pen/empvEGy)
 -   **Roman Numeral Converter**  
     Converts numbers between standard and Roman numeral formats.  
-    [Live Demo]()
+    [Live Demo](https://codepen.io/Work-Reinis/pen/dPYvzVr)
 -   **US Telephone Number Validator**  
      Validates American phone numbers using regular expressions.  
-    [Live Demo]()
+    [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)
 
 ## 🧠 What I Learned
 
