@@ -1,0 +1,47 @@
+#quote-box {
+    width: 600px; 
+    padding: 60px; 
+    border-radius: 50px; 
+    background-color: rgba(240, 248, 255, 0.5); 
+    border: 1px solid rgba(204, 204, 204, 0.75);
+
+    /* Frosted glass code block*/
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20);
+}
+
+#quote-symbol {
+    position: absolute; 
+    left: -17px; 
+    top: 2px; 
+}
+
+#text {
+    line-height: 1.2;
+    position: relative; 
+    padding-left: 20px; 
+    color: var(--text-main)
+}
+
+#author {
+    color: var(--text-muted);
+}
+
+#new-quote, #tweet-quote {
+  background: var(--btn-bg);
+  border: none;
+  color: white;
+  transition: transform 0.1s ease;
+}
+
+#new-quote:hover,
+#tweet-quote:hover {
+  background: var(--btn-hover);
+}
+
+#new-quote:active,
+#tweet-quote:active {
+  transform: scale(0.95);
+}

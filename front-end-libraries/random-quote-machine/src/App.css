@@ -1,0 +1,56 @@
+:root {
+  --primary-gradient: linear-gradient(-45deg, rgb(245, 144, 160), rgb(248, 183, 179), rgb(252,224, 202));
+
+   /* 🖋️ Font Colors */
+  --text-main: #3b3b3b;       /* Main paragraph text */
+  --text-heading: #6b1e3b;    /* Headings or emphasis */
+  --text-muted: #4a4a4a;      /* Optional muted variant */
+
+  /* 🎨 Button Accent Colors */
+  --btn-bg: linear-gradient(to right, #c95673, #e88088);     /* Soft rose gradient */
+  --btn-hover: linear-gradient(to right, #b34461, #d86a78);  /* Slightly darker on hover */
+  --btn-text: #ffffff;        /* Button text */
+
+  /* 🌟 Alternative Button (coral style) */
+  --btn-alt-bg: #f77a8b;
+  --btn-alt-hover: #e65c6e;
+
+  
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+
+  /* Gradient background code block */
+  background: var(--primary-gradient);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+
+}
+
+/* Gradient background animation bock */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Fade-in animation bock */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in { 
+  animation: fadeIn ease 1s forwards; /* 1s fade in, stops once fully visible */
+}
+
+/* Fade-out animation bock */
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+.fade-out {
+  animation: fadeOut ease 1s forwards; /* 1s fade out, stops once transparent */
+}

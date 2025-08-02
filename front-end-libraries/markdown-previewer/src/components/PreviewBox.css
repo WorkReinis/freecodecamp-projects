@@ -1,0 +1,19 @@
+#preview {
+    border: 1px solid rgb(222, 226, 230);
+    padding: 20px;
+    width: 100%;
+    height: 85vh;
+    overflow-y: auto;   /* Adds a vertical scrollbar if content overflows */
+
+    /* Frosted glass code block*/
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20);
+}
+
+#preview img {
+    max-width: 100%;  /* Limit the image width to the width of the container */
+    height: auto;     /* Maintain the aspect ratio */
+    display: block;   /* Removes any spacing below the image */
+}

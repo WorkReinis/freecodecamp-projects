@@ -1,0 +1,45 @@
+#drum-machine {
+  padding: 20px;
+  border-radius: 16px;
+
+  /* Frosted glass look code block*/
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20)
+}
+
+#display {
+  font-size: 1.5em;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  width: 90%;
+}
+
+button.drum-pad {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  font-size: 1.2em;
+  transition: transform 0.1s ease;
+}
+
+/* Button animation code block */
+button.drum-pad.active {
+  transform: scale(0.9);
+}
+
+/* Gradient background code block */
+body {
+  background: linear-gradient(-45deg, #f7ccb4, #f0a6d1, #a3d8f4, #b3e7d8);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+/* Gradient background animation code block */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
