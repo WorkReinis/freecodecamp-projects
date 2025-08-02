@@ -1,9 +1,6 @@
-# Responsive Web Design Projects
+# 🖥️ Responsive Web Design Projects
 
-This folder contains my projects for the freeCodeCamp Responsive Web Design certification
-
-Welcome to my collection of Responsive Web Design projects for the freeCodeCamp certification! 🎉  
-Each project showcases my skills in creating clean, accessible, and fully responsive websites that work seamlessly across devices.
+A collection of layout and design challenges focused on accessibility, responsive behavior, and semantic structure — each built to meet specific user interface requirements.
 
 ## 🛠️ Tech Stack 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)  
