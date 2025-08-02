@@ -1,14 +1,12 @@
 ## 🌐 freeCodeCamp Certification Projects
 
-This repository contains my personal submissions for the [freeCodeCamp](https://www.freecodecamp.org/) certification projects.
+This repository contains my personal submissions for the [freeCodeCamp](https://www.freecodecamp.org/) certifications.
 
 ## 🎓 Certifications Covered
 
 - Responsive Web Design
 - JavaScript Algorithms and Data Structures
 - Front End Libraries
-
-Each project is in its own folder, with source code and (when applicable) a live demo link.
 
 ## 🏗️ Project Setup
 
