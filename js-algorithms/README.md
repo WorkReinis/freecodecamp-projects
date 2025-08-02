@@ -13,45 +13,45 @@ Practical coding exercises focused on logic, data handling, and algorithmic prob
 
 <!-- ## 🚀 Projects Included
 
--   **Cash Register**  
-    Calculates change from a transaction using precise currency logic.  
+-   **Cash Register**
+    Calculates change from a transaction using precise currency logic.
     [Live Demo](https://codepen.io/Work-Reinis/pen/VYvpzzN)
--   **Palindrome Checker**  
-    Checks if a given string reads the same backward and forward.  
+-   **Palindrome Checker**
+    Checks if a given string reads the same backward and forward.
     [Live Demo](https://codepen.io/Work-Reinis/pen/OPypjxy)
--   **Pokemon Search App**  
-    Fetches and displays Pokémon data based on user input.  
+-   **Pokemon Search App**
+    Fetches and displays Pokémon data based on user input.
     [Live Demo](https://codepen.io/Work-Reinis/pen/empvEGy)
--   **Roman Numeral Converter**  
-    Converts numbers between standard and Roman numeral formats.  
+-   **Roman Numeral Converter**
+    Converts numbers between standard and Roman numeral formats.
     [Live Demo](https://codepen.io/Work-Reinis/pen/dPYvzVr)
--   **US Telephone Number Validator**  
-     Validates American phone numbers using regular expressions.  
+-   **US Telephone Number Validator**
+     Validates American phone numbers using regular expressions.
     [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)
--   **Anagram Checker**  
-     Determines if two strings contain the same characters in a different order.  
+-   **Anagram Checker**
+     Determines if two strings contain the same characters in a different order.
      [Live Demo](https://codepen.io/Work-Reinis/pen/LEpWjQq)
--   **Number to Text Converter**  
-     Converts numeric values into their equivalent English words.  
+-   **Number to Text Converter**
+     Converts numeric values into their equivalent English words.
      [Live Demo](https://codepen.io/Work-Reinis/pen/PwPpKRP)
--   **ROT13 Cipher**  
-     Encodes and decodes text using the ROT13 substitution cipher.  
+-   **ROT13 Cipher**
+     Encodes and decodes text using the ROT13 substitution cipher.
      [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)
--   **Word counter**  
-     Counts words and characters in a given text input.  
+-   **Word counter**
+     Counts words and characters in a given text input.
      [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV) -->
+     
+## 🚀 Projects Included
 
-     ## 🚀 Projects Included
-
-- **Cash Register** — Calculates change precisely. [Live Demo](https://codepen.io/Work-Reinis/pen/VYvpzzN)  
-- **Palindrome Checker** — Checks palindromes. [Live Demo](https://codepen.io/Work-Reinis/pen/OPypjxy)  
-- **Pokemon Search App** — Fetches Pokémon data. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEGy)  
-- **Roman Numeral Converter** — Converts to/from Roman numerals. [Live Demo](https://codepen.io/Work-Reinis/pen/dPYvzVr)  
-- **US Telephone Validator** — Validates US phone numbers. [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)  
-- **Anagram Checker** — Checks if two strings match. [Live Demo](https://codepen.io/Work-Reinis/pen/LEpWjQq)  
-- **Number to Text Converter** — Converts numbers to words. [Live Demo](https://codepen.io/Work-Reinis/pen/PwPpKRP)  
-- **ROT13 Cipher** — Encodes/decodes ROT13 cipher. [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)  
-- **Word Counter** — Counts words & characters. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV)  
+- **Cash Register** — Calculates precise change. [Live Demo](https://codepen.io/Work-Reinis/pen/VYvpzzN)  
+- **Palindrome Checker** — Detects mirrored strings. [Live Demo](https://codepen.io/Work-Reinis/pen/OPypjxy)  
+- **Pokemon Search App** — API-powered lookup. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEGy)  
+- **Roman Numeral Converter** — Converts numbers to Roman numerals. [Live Demo](https://codepen.io/Work-Reinis/pen/dPYvzVr)  
+- **US Telephone Validator** — Regex-based format check. [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)  
+- **Anagram Checker** — Letter-matching logic. [Live Demo](https://codepen.io/Work-Reinis/pen/LEpWjQq)  
+- **Number to Text Converter** — Spells numbers aloud. [Live Demo](https://codepen.io/Work-Reinis/pen/PwPpKRP)  
+- **ROT13 Cipher** — Simple substitution cipher. [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)  
+- **Word Counter** — Tallies words and chars. [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV)  
 
 
 ## 🧠 What I Learned
