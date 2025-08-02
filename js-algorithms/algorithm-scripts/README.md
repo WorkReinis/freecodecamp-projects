@@ -1,6 +1,6 @@
 ## ⚙️ Algorithm Scripts
 
-A collection of JavaScript algorithm and scripting challenges completed as part of the freeCodeCamp. Each file contains a single, self-contained solution to a coding challenge. This repo serves as a personal archive of my progress in mastering JavaScript fundamentals.
+JavaScript algorithm and scripting challenges completed as part of the freeCodeCamp. Each file contains a single, self-contained solution. This repo serves as a personal archive of my progress in mastering JavaScript fundamentals.
 
 ## 📝 Overview
 
