@@ -28,16 +28,28 @@ Practical coding exercises focused on logic, data handling, and algorithmic prob
 -   **US Telephone Number Validator**  
      Validates American phone numbers using regular expressions.  
     [Live Demo](https://codepen.io/Work-Reinis/pen/raOyzYJ)
+-   **Anagram Checker**  
+     Determines if two strings contain the same characters in a different order.  
+     [Live Demo](https://codepen.io/Work-Reinis/pen/LEpWjQq)
+-   **Number to Text Converter**  
+     Converts numeric values into their equivalent English words.  
+     [Live Demo](https://codepen.io/Work-Reinis/pen/PwPpKRP)
+-   **ROT13 Cipher**  
+     Encodes and decodes text using the ROT13 substitution cipher.  
+     [Live Demo](https://codepen.io/Work-Reinis/pen/KwdWvoq)
+-   **Word counter**  
+     Counts words and characters in a given text input.  
+     [Live Demo](https://codepen.io/Work-Reinis/pen/empvEMV)
 
 ## 🧠 What I Learned
 
-- Core JavaScript concepts like variables, functions, arrays, and objects  
-- Algorithmic thinking and problem-solving techniques  
-- Looping, recursion, and conditional logic  
-- String and number manipulation  
-- Regular expressions for pattern matching  
-- ES6 features including arrow functions, destructuring, and template literals  
-- Basic debugging strategies and code organization
+-   Core JavaScript concepts like variables, functions, arrays, and objects
+-   Algorithmic thinking and problem-solving techniques
+-   Looping, recursion, and conditional logic
+-   String and number manipulation
+-   Regular expressions for pattern matching
+-   ES6 features including arrow functions, destructuring, and template literals
+-   Basic debugging strategies and code organization
 
 ## 📜 License
 
