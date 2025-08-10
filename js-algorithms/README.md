@@ -1,15 +1,13 @@
 ## ⚙️ JavaScript Algorithms and Data Structures
 
-Practical coding exercises focused on logic, data handling, and algorithmic problem solving using vanilla JavaScript.
-
-## 🛠️ Tech Stack
-
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&logoWidth=30)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30)
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black&logoWidth=30)
 ![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
+
+Practical coding exercises focused on logic, data handling, and algorithmic problem solving using vanilla JavaScript.
 
 <!-- ## 🚀 Projects Included
 

@@ -1,13 +1,11 @@
 ## 🖥️ Responsive Web Design Projects
 
-A collection of layout and design challenges focused on accessibility, responsive behavior, and semantic structure — each built to meet specific user interface requirements.
-
-## 🛠️ Tech Stack 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30)
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
 
+A collection of layout and design challenges focused on accessibility, responsive behavior, and semantic structure — each built to meet specific user interface requirements.
 
 ## 🚀 Projects Included
 
