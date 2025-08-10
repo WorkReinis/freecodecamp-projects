@@ -3,17 +3,17 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&logoWidth=30)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&logoWidth=30)  
-![Create React App](https://img.shields.io/badge/-CRA-09D3AC?logo=react&logoColor=white&logoWidth=30)  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&logoWidth=30)
+![Create React App](https://img.shields.io/badge/-Create%20React%20App-09D3AC?logo=create-react-app&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![jQuery](https://img.shields.io/badge/-jQuery-0769AD?logo=jquery&logoColor=white&logoWidth=30)  
-![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white&logoWidth=30)  
+![jQuery](https://img.shields.io/badge/-jQuery-0769AD?logo=jquery&logoColor=white&logoWidth=30)
+![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white&logoWidth=30)
 ![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white&logoWidth=30)
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=black&logoWidth=30)
 ![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
 
-Practical coding exercises focused on logic, data handling, and algorithmic problem solving using vanilla JavaScript.
+Practical, interactive projects built using React, Bootstrap, and vanilla CSS/JS, demonstrating component-based design, state management, and API integration.
 
 
 ## 🚀 Projects Included
