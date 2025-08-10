@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Word Counter</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Counter</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
+    <body>
+        <main>
+            <div class="div-page">
+                <div class="container">
+                    <h1 class="title">Word Counter</h1>
+                    <p>
+                        Enter or paste a text to count the number of words. The
+                        app will process the text and display the total word
+                        count.
+                    </p>
+                </div>
 
-<body>
+                <div class="container">
+                    <textarea
+                        id="inputText"
+                        rows="5"
+                        cols="1"
+                        placeholder="Enter your text here"
+                    ></textarea>
+                    <br />
+                    <button id="countButton">Count Words</button>
+                </div>
 
-    <h1>Word Counter</h1>
-    <p>Enter or paste a text to count the number of words. The app will process the text and display the total word count.</p>
-    <div>
-        <textarea id="inputText" rows="10" cols="50" placeholder="Enter your text here"></textarea>
-        <br>
-        <button id="countButton">Count Words</button>
-    </div>
+                <div class="container result" id="resultText"></div>
+            </div>
+        </main>
 
-    <div class="result" id="resultText"></div>
-
-    <script src="script.js"></script>
-
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
