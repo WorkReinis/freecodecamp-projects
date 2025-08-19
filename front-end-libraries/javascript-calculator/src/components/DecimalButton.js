@@ -1,14 +1,13 @@
-function DecimalButton( {id, sendDataToParent, className, label} ) {
-    
+function DecimalButton({ id, sendDataToParent, className, label }) {
     const handleMouseClick = (e) => {
         sendDataToParent(e);
-    }
+    };
 
     return (
-        <button 
-            onClick={handleMouseClick} 
-            id={id} 
-            className={className}  
+        <button
+            onClick={handleMouseClick}
+            id={id}
+            className={className}
             label={label}
         >
             {label}

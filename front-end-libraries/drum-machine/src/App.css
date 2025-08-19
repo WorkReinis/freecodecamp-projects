@@ -1,45 +1,45 @@
 #drum-machine {
-  padding: 20px;
-  border-radius: 16px;
+    width: auto;
+    padding: 25px;
+    border-radius: 30px;
 
-  /* Frosted glass look code block*/
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1));
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.20)
+    /* Frosted glass look code block*/
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #display {
-  font-size: 1.5em;
-  background-color: #333;
-  color: white;
-  border-radius: 8px;
-  width: 90%;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 12px;
+    margin: 0px;
+    padding: 0px;
 }
 
 button.drum-pad {
-  width: 80px;
-  height: 80px;
-  margin: 5px;
-  font-size: 1.2em;
-  transition: transform 0.1s ease;
+    width: 80px;
+    height: 80px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* Button animation code block */
-button.drum-pad.active {
-  transform: scale(0.9);
+button.drum-pad:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+    color: white;
 }
 
-/* Gradient background code block */
-body {
-  background: linear-gradient(-45deg, #f7ccb4, #f0a6d1, #a3d8f4, #b3e7d8);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-}
-
-/* Gradient background animation code block */
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+button.drum-pad:active {
+    background: rgba(255, 255, 255, 0.4) !important;
+    transform: scale(0.95);
+    color: white !important;
 }

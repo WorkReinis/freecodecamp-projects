@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-classnames"
+  ],
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSameLine": false,
+
+  "classnameSort": "grouped",
+  "classnameNewlines": "always",
+  "classnameGroups": [
+    "position",         
+    "display",         
+    "flex",            
+    "grid",         
+    "spacing",        
+    "sizing",          
+    "typography",      
+    "background",       
+    "border",          
+    "effect",           
+    "animation",       
+    "transform",        
+    "misc"            
+  ],
+
+
+  "printWidth": 80,
+  "proseWrap": "always"
+}

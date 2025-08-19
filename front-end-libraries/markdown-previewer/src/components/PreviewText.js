@@ -20,4 +20,4 @@ Here are sustainability strategies:
 
 **Architects should emphasize innovation in design.**
 
-![Sample Architectural Image](https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/4.webp "Place Royale Bruxelles")`
+![Sample Architectural Image](https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/4.webp "Place Royale Bruxelles")`;

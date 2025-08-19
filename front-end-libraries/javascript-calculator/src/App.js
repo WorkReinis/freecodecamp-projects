@@ -136,7 +136,7 @@ function App() {
             waitingForSecondNumber === true &&
             (secondNumber === "Press a key" || secondNumber === "-")
         ) {
-            // If second number not provided, use first number for operation (e.g., 5 + 5)
+            // If second number not provided, use first number for operation
             let newResult;
             switch (operator) {
                 case "+":
@@ -213,15 +213,17 @@ function App() {
         setIsOperatorSet(false);
         setIsFirstNumberSet(true);
         setIsResultProvided(false);
-        console.log("------------------------------------------------");
     };
 
     // CSS styling for all buttons, passed in each className prop
-    const buttonCSS = "button d-flex justify-content-center align-items-center";
+    const buttonCSS =
+        "button d-flex justify-content-center align-items-center fw-bold";
+    const testCSS = " d-flex justify-content-between ";
 
     return (
-        <div id="calculator" className="d-flex flex-row align-items-center">
-            {/* <div className="container">
+        <div className="d-flex justify-content-center align-items-center col gap-5">
+            {/* Debugging code block */}
+            {/* <div className="d-flex row w-25 gap-0">
                 <div className={testCSS}>
                     <div>{firstNumber}</div>
                     <div>First Number</div>
@@ -267,145 +269,146 @@ function App() {
                     <div>Is 1st Number Set</div>
                 </div>
             </div> */}
-
-            <div
-                id="container"
-                className="container d-flex flex-column justify-content-center gap-3"
-            >
+            <div id="calculator" className="d-flex flex-row align-items-center">
                 <div
-                    id="display"
-                    className="row m-0 d-flex justify-content-end align-items-center p-3"
+                    id="container"
+                    className="container d-flex flex-column justify-content-center gap-3"
                 >
-                    {display}
-                </div>
-
-                <div className="d-flex flex-row gap-3">
-                    <ClearButton
-                        className={`${buttonCSS} utility round-button`}
-                        sendDataToParent={handleClearClick}
-                        label="C"
-                        id="clear"
-                    />
-                    <OperatorButton
-                        className={`${buttonCSS} utility round-button`}
-                        sendDataToParent={handleOperatorClick}
-                        label={operatorMap[3].key}
-                        id={operatorMap[3].name}
-                    />
-                    <OperatorButton
-                        className={`${buttonCSS} utility round-button`}
-                        sendDataToParent={handleOperatorClick}
-                        label={operatorMap[2].key}
-                        id={operatorMap[2].name}
-                    />
-                    <OperatorButton
-                        className={`${buttonCSS} utility round-button`}
-                        sendDataToParent={handleOperatorClick}
-                        label={operatorMap[1].key}
-                        id={operatorMap[1].name}
-                    />
-                </div>
-
-                <div className="d-flex flex-row gap-3 ">
-                    <div className="d-flex flex-column gap-3 ">
-                        <div className="d-flex flex-row gap-3">
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[7].key}
-                                id={numberMap[7].name}
-                            />
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[8].key}
-                                id={numberMap[8].name}
-                            />
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[9].key}
-                                id={numberMap[9].name}
-                            />
-                        </div>
-
-                        <div className="d-flex flex-row gap-3">
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[4].key}
-                                id={numberMap[4].name}
-                            />
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[5].key}
-                                id={numberMap[5].name}
-                            />
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[6].key}
-                                id={numberMap[6].name}
-                            />
-                        </div>
-                    </div>
-                    <OperatorButton
-                        className={`${buttonCSS} plus utility vertical-button`}
-                        sendDataToParent={handleOperatorClick}
-                        label={operatorMap[0].key}
-                        id={operatorMap[0].name}
-                    />
-                </div>
-
-                <div className="d-flex flex-row gap-3 ">
-                    <div className="d-flex flex-column gap-3 ">
-                        <div className="d-flex flex-row gap-3">
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[1].key}
-                                id={numberMap[1].name}
-                            />
-
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[2].key}
-                                id={numberMap[2].name}
-                            />
-
-                            <NumberButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[3].key}
-                                id={numberMap[3].name}
-                            />
-                        </div>
-
-                        <div className="d-flex flex-row gap-3">
-                            <NumberButton
-                                className={`${buttonCSS} horizontal-button`}
-                                sendDataToParent={handleButtonClick}
-                                label={numberMap[0].key}
-                                id={numberMap[0].name}
-                            />
-
-                            <DecimalButton
-                                className={`${buttonCSS} round-button`}
-                                sendDataToParent={handleDecimalClick}
-                                label="."
-                                id="decimal"
-                            />
-                        </div>
+                    <div
+                        id="display"
+                        className="row m-0 d-flex justify-content-end align-items-center p-3"
+                    >
+                        {display}
                     </div>
 
-                    <EqualsButton
-                        className={`${buttonCSS} accent vertical-button`}
-                        sendDataToParent={handleEqualsClick}
-                        label="="
-                        id="equals"
-                    />
+                    <div className="d-flex flex-row gap-3">
+                        <ClearButton
+                            className={`${buttonCSS} utility round-button`}
+                            sendDataToParent={handleClearClick}
+                            label="C"
+                            id="clear"
+                        />
+                        <OperatorButton
+                            className={`${buttonCSS} utility round-button`}
+                            sendDataToParent={handleOperatorClick}
+                            label={operatorMap[3].key}
+                            id={operatorMap[3].name}
+                        />
+                        <OperatorButton
+                            className={`${buttonCSS} utility round-button`}
+                            sendDataToParent={handleOperatorClick}
+                            label={operatorMap[2].key}
+                            id={operatorMap[2].name}
+                        />
+                        <OperatorButton
+                            className={`${buttonCSS} utility round-button`}
+                            sendDataToParent={handleOperatorClick}
+                            label={operatorMap[1].key}
+                            id={operatorMap[1].name}
+                        />
+                    </div>
+
+                    <div className="d-flex flex-row gap-3 ">
+                        <div className="d-flex flex-column gap-3 ">
+                            <div className="d-flex flex-row gap-3">
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[7].key}
+                                    id={numberMap[7].name}
+                                />
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[8].key}
+                                    id={numberMap[8].name}
+                                />
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[9].key}
+                                    id={numberMap[9].name}
+                                />
+                            </div>
+
+                            <div className="d-flex flex-row gap-3">
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[4].key}
+                                    id={numberMap[4].name}
+                                />
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[5].key}
+                                    id={numberMap[5].name}
+                                />
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[6].key}
+                                    id={numberMap[6].name}
+                                />
+                            </div>
+                        </div>
+                        <OperatorButton
+                            className={`${buttonCSS} plus utility vertical-button`}
+                            sendDataToParent={handleOperatorClick}
+                            label={operatorMap[0].key}
+                            id={operatorMap[0].name}
+                        />
+                    </div>
+
+                    <div className="d-flex flex-row gap-3 ">
+                        <div className="d-flex flex-column gap-3 ">
+                            <div className="d-flex flex-row gap-3">
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[1].key}
+                                    id={numberMap[1].name}
+                                />
+
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[2].key}
+                                    id={numberMap[2].name}
+                                />
+
+                                <NumberButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[3].key}
+                                    id={numberMap[3].name}
+                                />
+                            </div>
+
+                            <div className="d-flex flex-row gap-3">
+                                <NumberButton
+                                    className={`${buttonCSS} horizontal-button`}
+                                    sendDataToParent={handleButtonClick}
+                                    label={numberMap[0].key}
+                                    id={numberMap[0].name}
+                                />
+
+                                <DecimalButton
+                                    className={`${buttonCSS} round-button`}
+                                    sendDataToParent={handleDecimalClick}
+                                    label="."
+                                    id="decimal"
+                                />
+                            </div>
+                        </div>
+
+                        <EqualsButton
+                            className={`${buttonCSS} accent vertical-button`}
+                            sendDataToParent={handleEqualsClick}
+                            label="="
+                            id="equals"
+                        />
+                    </div>
                 </div>
             </div>
         </div>

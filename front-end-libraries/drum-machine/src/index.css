@@ -1,6 +1,36 @@
 #root {
-  height: 100vh;
-  display: flex;
-  justify-content: center; 
-  align-items: center;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(
+            circle at 20% 30%,
+            rgba(255, 200, 255, 0.9),
+            transparent 60%
+        ),
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(255, 100, 200, 0.8),
+            transparent 60%
+        ),
+        radial-gradient(
+            circle at 70% 80%,
+            rgba(0, 200, 255, 0.7),
+            transparent 70%
+        ),
+        radial-gradient(
+            circle at 30% 80%,
+            rgba(100, 0, 200, 0.6),
+            transparent 70%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 150, 255, 0.3),
+            transparent 100%
+        ),
+        #1a1a2e;
 }
