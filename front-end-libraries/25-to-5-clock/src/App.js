@@ -229,9 +229,10 @@ function App() {
 
   return (
     <div
-      className="w-screen h-screen flex items-center justify-center
-        bg-[radial-gradient(circle_at_top_left,rgba(251,111,112,0.8),transparent_60%),radial-gradient(circle_at_bottom_right,rgba(255,200,150,1),transparent_70%)]
-        bg-white"
+      className="w-screen h-screen flex items-center justify-center gap-2
+        flex-col bg-gradient-to-br from-[#3d4190] via-[#60658b] to-[#969bdc]"
+    
+
     >
       <div
         className="p-5 w-fit rounded-[50px] flex flex-col gap-12 items-center
@@ -254,11 +255,13 @@ function App() {
                 id="timer-label"
                 className="text-xl text-slate-300 absolute bottom-16"
               >
-                {sessionCountdownRunning
-                  ? 'Session'
-                  : breakCountdownRunning
-                    ? 'Break'
-                    : 'Start'}
+                {breakIsPaused || sessionIsPaused
+                  ? 'Resume'
+                  : sessionCountdownRunning
+                    ? 'Session'
+                    : breakCountdownRunning
+                      ? 'Break'
+                      : 'Press Start'}
               </h2>
               <div id="time-left" className="text-7xl font-bold">
                 {sessionCountdownRunning
@@ -362,6 +365,19 @@ function App() {
           src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/BeepSound.wav"
           preload="auto"
         ></audio>
+      </div>
+
+      <div className="text-white/50 text-sm font-light">
+        Designed and Developed by{' '}
+        <a
+          href="https://github.com/WorkReinis"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/50 text-sm font-semibold no-underline
+            hover:underline"
+        >
+          Reinis
+        </a>
       </div>
     </div>
   );

@@ -7,6 +7,8 @@ import DecimalButton from "./components/DecimalButton.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 
+import { FaCalculator } from "react-icons/fa";
+
 function App() {
     const [firstNumber, setFirstNumber] = useState("0");
     const [secondNumber, setSecondNumber] = useState("Press a key");
@@ -221,7 +223,7 @@ function App() {
     const testCSS = " d-flex justify-content-between ";
 
     return (
-        <div className="d-flex justify-content-center align-items-center col gap-5">
+        <div className="d-flex justify-content-center align-items-center flex-column gap-2">
             {/* Debugging code block */}
             {/* <div className="d-flex row w-25 gap-0">
                 <div className={testCSS}>
@@ -269,6 +271,16 @@ function App() {
                     <div>Is 1st Number Set</div>
                 </div>
             </div> */}
+
+            {/* <div className="d-flex flex-row align-items-center justify-items-center gap-2 pb-3">
+                <div className="icon w-10 h-10 shadow-sm">
+                    <FaCalculator size={32} />
+                </div>
+                <div className="title fs-2 text-center text-white-50 pb-1">
+                    JS Calculator
+                </div>
+            </div> */}
+
             <div id="calculator" className="d-flex flex-row align-items-center">
                 <div
                     id="container"
@@ -410,6 +422,18 @@ function App() {
                         />
                     </div>
                 </div>
+            </div>
+
+            <div className="text-black-50 fs-5 fw-light">
+                Designed and Developed by{" "}
+                <a
+                    className="text-black-50 fs-6 fw-semibold text-decoration-none"
+                    href="https://github.com/WorkReinis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Reinis
+                </a>
             </div>
         </div>
     );

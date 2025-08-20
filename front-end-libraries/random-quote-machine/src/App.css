@@ -1,19 +1,19 @@
 :root {
-    --primary-gradient: linear-gradient(
-        -45deg,
-        rgb(245, 144, 160),
-        rgb(248, 183, 179),
-        rgb(252, 224, 202)
-    );
+  --primary-gradient: linear-gradient(
+    -45deg,
+    #5a1846,   /* deep burgundy */
+    #8a2c56,   /* wine pink */
+    #d9a441    /* golden accent */
+  );
 
-    /* Font Colors */
-    --text-main: #3b3b3b;
-    --text-heading: #6b1e3b;
+  /* Font Colors */
+  --text-main: #2e2e2e;
+  --text-heading: #5a1846;
 
-    /* Button Accent Colors */
-    --btn-bg: linear-gradient(to right, #c95673, #e88088);
-    --btn-hover: linear-gradient(to right, #b34461, #d86a78);
-    --btn-text: #ffffff;
+  /* Button Accent Colors */
+  --btn-bg: linear-gradient(to right, #8a2c56, #d96c77);
+  --btn-hover: linear-gradient(to right, #6b2044, #b34d5a);
+  --btn-text: #fff;
 }
 
 body {

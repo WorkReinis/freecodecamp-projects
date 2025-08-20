@@ -4,10 +4,21 @@
     border-radius: 30px;
 
     /* Frosted glass look code block*/
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    background: linear-gradient(
+        135deg,
+       rgba(0, 200, 255, 0.1), rgba(255, 200, 255, 0.6)    
+    );
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 #display {
@@ -33,7 +44,7 @@ button.drum-pad {
 }
 
 button.drum-pad:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
     color: white;
 }

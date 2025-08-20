@@ -6,6 +6,7 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&logoWidth=30)
 ![Create React App](https://img.shields.io/badge/-Create%20React%20App-09D3AC?logo=create-react-app&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&logoWidth=30)
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?logo=jquery&logoColor=white&logoWidth=30)
 ![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white&logoWidth=30)
 ![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white&logoWidth=30)
@@ -18,12 +19,47 @@ Practical, interactive projects built using React, Bootstrap, and vanilla CSS/JS
 
 ## 🚀 Projects Included
 
-- **Random Quote Machine** — Fetches and displays random quotes.  [Live Demo]()  
-- **Markdown Previewer** — Live preview of GitHub-flavored markdown. [Live Demo]()  
-- **Drum Machine** — Interactive drum pads triggered by clicks or keys. [Live Demo]()  
-- **JavaScript Calculator** — Fully functional calculator UI. [Live Demo]()  
-- **25 + 5 Clock** — Pomodoro-style timer with session/break settings. [Live Demo]()  
+---
 
+### Random Quote Machine  
+<img src="../screenshots/screenshot-01-cropped.png" width="400px" alt="Random Quote Machine preview"/>  
+
+Fetches and displays random quotes.  
+[🔗 Live Demo]()  
+
+---
+
+### Markdown Previewer  
+<img src="preview-markdown.png" width="400px" alt="Markdown Previewer preview"/>  
+
+Live preview of GitHub-flavored markdown.  
+[🔗 Live Demo]()  
+
+---
+
+### Drum Machine  
+<img src="preview-drum.png" width="400px" alt="Drum Machine preview"/>  
+
+Interactive drum pads triggered by clicks or keys.  
+[🔗 Live Demo]()  
+
+---
+
+### JavaScript Calculator  
+<img src="preview-calc.png" width="400px" alt="JavaScript Calculator preview"/>  
+
+Fully functional calculator UI.  
+[🔗 Live Demo]()  
+
+---
+
+### 25 + 5 Clock  
+<img src="preview-clock.png" width="400px" alt="25 + 5 Clock preview"/>  
+
+Pomodoro-style timer with session/break settings.  
+[🔗 Live Demo]()  
+
+---
 
 ## 🧠 What I Learned
 

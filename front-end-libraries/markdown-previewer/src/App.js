@@ -23,6 +23,19 @@ function App() {
                     <PreviewBox input={input} />
                 </div>
             </div>
+            <div className="d-flex justify-content-end mt-2">
+                <div className="text-black-50 fs-6 fw-light">
+                    Designed and Developed by{" "}
+                    <a
+                        className="text-black-50 fs-6 fw-semibold text-decoration-none"
+                        href="https://github.com/WorkReinis"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Reinis
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }

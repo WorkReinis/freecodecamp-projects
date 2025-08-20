@@ -30,6 +30,18 @@ body {
     }
 }
 
+.icon {
+    background: linear-gradient(
+        135deg,
+       rgba(229, 132, 57, 0.1), rgba(255, 255, 255, 0.6)
+        
+    );
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 #calculator {
     padding: 30px;
     border-radius: 60px;
