@@ -5,6 +5,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30)
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&logoWidth=30)
 ![Create React App](https://img.shields.io/badge/-Create%20React%20App-09D3AC?logo=create-react-app&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&logoWidth=30)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&logoWidth=30)
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?logo=jquery&logoColor=white&logoWidth=30)
@@ -14,62 +15,67 @@
 ![APIs](https://img.shields.io/badge/-APIs-4DB33D?logo=cloud&logoColor=white&logoWidth=30)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&logoWidth=30)
 
-Practical, interactive projects built using React, Bootstrap, and vanilla CSS/JS, demonstrating component-based design, state management, and API integration.
+Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, demonstrating component-based design, state management, and API integration.
 
 
 ## 🚀 Projects Included
 
----
 
-### Random Quote Machine  
-<img src="./screenshots/screenshot-01-cropped.png" width="400px" alt="Random Quote Machine preview"/>  
 
-Fetches and displays random quotes.  
-[🔗 Live Demo]()  
-
----
-
-### Markdown Previewer  
-<img src="preview-markdown.png" width="400px" alt="Markdown Previewer preview"/>  
-
-Live preview of GitHub-flavored markdown.  
-[🔗 Live Demo]()  
-
----
-
-### Drum Machine  
-<img src="preview-drum.png" width="400px" alt="Drum Machine preview"/>  
-
-Interactive drum pads triggered by clicks or keys.  
-[🔗 Live Demo]()  
-
----
-
-### JavaScript Calculator  
-<img src="preview-calc.png" width="400px" alt="JavaScript Calculator preview"/>  
-
-Fully functional calculator UI.  
-[🔗 Live Demo]()  
-
----
-
-### 25 + 5 Clock  
-<img src="preview-clock.png" width="400px" alt="25 + 5 Clock preview"/>  
-
-Pomodoro-style timer with session/break settings.  
-[🔗 Live Demo]()  
+ 
+<table>
+  <tr>
+    <td align="center">
+    <br>
+      <img src="./screenshots/screenshot-01-cropped.png" width="200px" alt="Random Quote Machine"/>
+      <br><strong>Random Quote Machine</strong>
+      <br>Fetches and displays random quotes.
+      <br><a href="https://random-quote-machine-01.netlify.app/">Live Demo</a>
+    </td>
+    <td align="center">
+    <br>
+      <img src="./screenshots/screenshot-02-cropped.png" width="200px" alt="Markdown Previewer"/>
+      <br><strong>Markdown Previewer</strong>
+      <br>Live preview of GitHub-flavored markdown.
+      <br><a href="https://markdown-previewer-02.netlify.app/">Live Demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+    <br>
+      <img src="./screenshots/screenshot-03-cropped.png" width="200px" alt="Drum Machine"/>
+      <br><strong>Drum Machine</strong>
+      <br>Interactive drum pads triggered by clicks or keys.
+      <br><a href="https://drum-machine-01.netlify.app/">Live Demo</a>
+    </td>
+    <td align="center">
+    <br>
+      <img src="./screenshots/screenshot-04-cropped.png" width="200px" alt="JavaScript Calculator"/>
+      <br><strong>JavaScript Calculator</strong>
+      <br>Fully functional calculator UI.
+      <br><a href="https://javascript-calculator-02.netlify.app/">Live Demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+    <br>
+      <img src="./screenshots/screenshot-05-cropped.png" width="200px" alt="25 + 5 Clock"/>
+      <br><strong>25 + 5 Clock</strong>
+      <br>Pomodoro-style timer with session/break settings.
+      <br><a href="#">Live Demo</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🧠 What I Learned
 
-- Core React concepts like components, props, and hooks (`useState`, `useEffect`)  
-- Passing data between components via props and context  
-- Handling events and managing component state  
-- Using `fetch` to work with APIs and update UI dynamically  
-- Bootstrap integration for responsive layouts  
-- Debugging React apps and optimizing component rendering  
-- Implementing accessibility and keyboard controls in UI components  
+- React fundamentals: components, props, state, and hooks  
+- Passing data via props and context  
+- Handling events and API integration 
+- Styling with Bootstrap and Tailwind   
+- Debugging and optimizing React components  
 
 ## 📜 License
 
