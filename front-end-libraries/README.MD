@@ -19,16 +19,16 @@ Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, 
 
 ## 🚀 Projects Included
 
-<table>
+<table style="width:100%; table-layout: fixed;">
   <tr>
-    <td align="center">
+    <td align="center"  width="50%">
     <br>
       <img src="./screenshots/screenshot-01-cropped.png" width="200px" alt="Random Quote Machine"/>
       <br><strong>Random Quote Machine</strong>
       <br>Fetches and displays random quotes.
       <br><a href="https://random-quote-machine-01.netlify.app/">Live Demo</a>
     </td>
-    <td align="center">
+    <td align="center"  width="50%">
     <br>
       <img src="./screenshots/screenshot-02-cropped.png" width="200px" alt="Markdown Previewer"/>
       <br><strong>Markdown Previewer</strong>
@@ -37,14 +37,14 @@ Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, 
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center"  width="50%">
     <br>
       <img src="./screenshots/screenshot-03-cropped.png" width="200px" alt="Drum Machine"/>
       <br><strong>Drum Machine</strong>
       <br>Interactive drum pads triggered by clicks or keys.
       <br><a href="https://drum-machine-01.netlify.app/">Live Demo</a>
     </td>
-    <td align="center">
+    <td align="center"  width="50%">
     <br>
       <img src="./screenshots/screenshot-04-cropped.png" width="200px" alt="JavaScript Calculator"/>
       <br><strong>JavaScript Calculator</strong>
@@ -53,14 +53,14 @@ Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, 
     </td>
   </tr>
   <tr>
-    <td align="center" >
+    <td align="center"  width="50%">
     <br>
       <img src="./screenshots/screenshot-05-cropped.png" width="200px" alt="25 + 5 Clock"/>
       <br><strong>25 + 5 Clock</strong>
       <br>Pomodoro-style timer with session/break settings.
       <br><a href="https://25-to-5-clock.netlify.app/">Live Demo</a>
     </td>
-     <td align="center" >
+     <td align="center"  width="50%">
     </td>
   </tr>
 </table>
