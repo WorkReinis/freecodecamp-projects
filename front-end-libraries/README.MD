@@ -17,12 +17,8 @@
 
 Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, demonstrating component-based design, state management, and API integration.
 
-
 ## 🚀 Projects Included
 
-
-
- 
 <table>
   <tr>
     <td align="center">
@@ -57,25 +53,25 @@ Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, 
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
+    <td align="center" >
     <br>
       <img src="./screenshots/screenshot-05-cropped.png" width="200px" alt="25 + 5 Clock"/>
       <br><strong>25 + 5 Clock</strong>
       <br>Pomodoro-style timer with session/break settings.
-      <br><a href="#">Live Demo</a>
+      <br><a href="https://25-to-5-clock.netlify.app/">Live Demo</a>
+    </td>
+     <td align="center" >
     </td>
   </tr>
 </table>
 
----
-
 ## 🧠 What I Learned
 
-- React fundamentals: components, props, state, and hooks  
-- Passing data via props and context  
-- Handling events and API integration 
-- Styling with Bootstrap and Tailwind   
-- Debugging and optimizing React components  
+-   React fundamentals: components, props, state, and hooks
+-   Passing data via props and context
+-   Handling events and API integration
+-   Styling with Bootstrap and Tailwind
+-   Debugging and optimizing React components
 
 ## 📜 License
 
