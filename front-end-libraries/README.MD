@@ -44,7 +44,7 @@ Practical, interactive projects built using React, Bootstrap, Tailwind, and JS, 
     <br>
       <img src="./screenshots/screenshot-03-cropped.png" width="200px" alt="Drum Machine"/>
       <br><strong>Drum Machine</strong>
-      <br>Interactive drum pads triggered by clicks or keys.
+      <br>Interactive drum pads used with clicks/keys.
       <br><a href="https://drum-machine-01.netlify.app/">Live Demo</a>
        <br><br>
     </td>
