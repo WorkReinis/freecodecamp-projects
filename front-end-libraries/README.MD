@@ -22,7 +22,7 @@ Practical, interactive projects built using React, Bootstrap, and vanilla CSS/JS
 ---
 
 ### Random Quote Machine  
-<img src="../screenshots/screenshot-01-cropped.png" width="400px" alt="Random Quote Machine preview"/>  
+<img src="./screenshots/screenshot-01-cropped.png" width="400px" alt="Random Quote Machine preview"/>  
 
 Fetches and displays random quotes.  
 [🔗 Live Demo]()  
